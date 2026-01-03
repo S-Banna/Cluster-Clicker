@@ -5,7 +5,7 @@ arduino = Arduino(port="COM4")
 
 print("F8 to toggle light - Esc to Exit")
 
-keyboard.add_hotkey("F8", arduino.toggle)
+keyboard.add_hotkey("l", arduino.toggle)
 keyboard.wait('esc')
 
 arduino.close()

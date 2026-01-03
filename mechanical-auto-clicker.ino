@@ -5,7 +5,7 @@ bool busy = false;
 
 const int SERVO_PIN = 9;
 const int SERVO_MIN = 10;
-const int SERVO_MAX = 160;
+const int SERVO_MAX = 60;
 
 const int SWEEP_DELAY = 200;
 const int COOLDOWN_DELAY = 200;
